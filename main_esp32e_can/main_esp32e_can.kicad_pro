@@ -424,6 +424,22 @@
     [
       "7fabc5d7-0f02-4149-95a1-fa513e825ccf",
       "Level_Shifter1"
+    ],
+    [
+      "31129f53-636f-4212-bd0f-f9cec8397b4f",
+      "DCDC_TPS62933_3V3"
+    ],
+    [
+      "da8501cc-4ef0-4247-8e76-1779f540fa5a",
+      "DCDC_TPS62933_7V4"
+    ],
+    [
+      "ae448462-19a4-47c2-a78b-0a1ef408c5af",
+      "Level_Shifter2"
+    ],
+    [
+      "1a165a23-a96a-44e6-9976-953fe6ccf7ae",
+      "Level_Shifter3"
     ]
   ],
   "text_variables": {}

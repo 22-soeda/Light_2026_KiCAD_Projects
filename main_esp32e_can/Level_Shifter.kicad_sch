@@ -621,7 +621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27734b5e-f942-44b5-8685-f694d0a1e5d6")
-		(property "Reference" "Q"
+		(property "Reference" "Q5"
 			(at 137.16 105.41 90)
 			(effects
 				(font
@@ -668,18 +668,30 @@
 			)
 		)
 		(pin "2"
-			(uuid "434fe432-af4e-4c16-b791-ec3cf49f3c49")
+			(uuid "bf27cbc4-f939-4090-9351-8338b13012c1")
 		)
 		(pin "3"
-			(uuid "9003123d-bf0e-4454-a374-154fa8a24828")
+			(uuid "c8cd1a8c-9158-431c-a5ba-ff24dc228dd8")
 		)
 		(pin "1"
-			(uuid "e06c686f-15cb-44fe-b7fe-3dab0f7398fc")
+			(uuid "f4495a7a-9088-45bd-ad10-aacde59f5646")
 		)
 		(instances
 			(project "main_esp32e_can"
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
+					(reference "Q5")
+					(unit 1)
+				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -695,7 +707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89e3945d-5661-49ef-9936-2533be560e08")
-		(property "Reference" "R"
+		(property "Reference" "R9"
 			(at 129.54 90.1699 0)
 			(effects
 				(font
@@ -741,15 +753,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "4108d975-737b-49ea-b8ee-7c9279aa1771")
+			(uuid "9d3562ed-8ecb-4509-9bc5-cb54ebfbe364")
 		)
 		(pin "1"
-			(uuid "d681ee04-d0f1-440b-94f0-e8ba8baf0fb9")
+			(uuid "0d2ac502-316e-45c5-bbde-254ae54cc846")
 		)
 		(instances
 			(project "main_esp32e_can"
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
+					(reference "R9")
+					(unit 1)
+				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
-					(reference "R10")
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -765,7 +789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0e6e16-1e5f-4939-ae48-1938614037cd")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 149.86 90.1699 0)
 			(effects
 				(font
@@ -811,19 +835,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c8f7063-00cb-4e64-8875-5be83d7834c0")
+			(uuid "ed33ebf6-a3d8-4899-a94a-09da6b1b662b")
 		)
 		(pin "1"
-			(uuid "05873221-2dbe-4424-9812-7c9e1c78c255")
+			(uuid "56f13c24-1f8a-424b-a3f5-1c5fe032e875")
 		)
 		(instances
 			(project "main_esp32e_can"
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
+					(reference "R22")
+					(unit 1)
+				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
-					(reference "R11")
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
+					(reference "R20")
 					(unit 1)
 				)
 			)
