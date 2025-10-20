@@ -1045,6 +1045,16 @@
 		)
 		(uuid "fade03d3-d1a8-4228-b7db-4a56367d8eb2")
 	)
+	(label "3V3out"
+		(at 152.4 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44ae445f-f348-46f9-af17-d9a152122782")
+	)
 	(hierarchical_label "V-"
 		(shape input)
 		(at 143.51 101.6 0)
@@ -1099,7 +1109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "269644c6-b695-4d0a-b6a7-334811dad789")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 158.75 81.2799 0)
 			(effects
 				(font
@@ -1117,7 +1127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 86.36 0)
 			(effects
 				(font
@@ -1153,7 +1163,7 @@
 		(instances
 			(project ""
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1169,7 +1179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ace29f1-60ff-4b19-872b-077ad23d1b92")
-		(property "Reference" "U4"
+		(property "Reference" "U10"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -1239,7 +1249,7 @@
 		(instances
 			(project ""
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "U4")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1255,7 +1265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477b59b8-2cbf-4cc4-b293-816645c6af4b")
-		(property "Reference" "R13"
+		(property "Reference" "R26"
 			(at 177.8 90.1699 0)
 			(effects
 				(font
@@ -1273,7 +1283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 91.44 90)
 			(effects
 				(font
@@ -1309,7 +1319,7 @@
 		(instances
 			(project ""
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "R13")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1325,7 +1335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e1c3ff-1901-4f6e-9137-23362fed641d")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 123.19 81.28 90)
 			(effects
 				(font
@@ -1341,7 +1351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127 87.9348 0)
 			(effects
 				(font
@@ -1377,7 +1387,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1393,7 +1403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d7d937-3c01-4186-8e2d-469ec18cb6fb")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 166.37 81.28 90)
 			(effects
 				(font
@@ -1409,7 +1419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -1445,7 +1455,7 @@
 		(instances
 			(project ""
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3100c55-ec8b-43ff-9d7b-ce88e380bbd5")
-		(property "Reference" "R14"
+		(property "Reference" "R27"
 			(at 177.8 100.3299 0)
 			(effects
 				(font
@@ -1479,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 101.6 90)
 			(effects
 				(font
@@ -1515,7 +1525,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "R14")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a52c1b1d-1754-4e06-b7d0-4f4af3bc0c9e")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 101.6 82.5499 0)
 			(effects
 				(font
@@ -1549,7 +1559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 87.63 0)
 			(effects
 				(font
@@ -1585,7 +1595,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1601,7 +1611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8926a58-2b6c-4934-8a8a-edba17e743b6")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 190.5 90.1699 0)
 			(effects
 				(font
@@ -1619,7 +1629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.6552 95.25 0)
 			(effects
 				(font
@@ -1655,7 +1665,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1671,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f74dc7-2212-44b9-9d0a-96d7124d8b6a")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 115.57 82.5499 0)
 			(effects
 				(font
@@ -1689,7 +1699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 87.63 0)
 			(effects
 				(font
@@ -1725,7 +1735,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/31129f53-636f-4212-bd0f-f9cec8397b4f"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)

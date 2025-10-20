@@ -131,7 +131,6 @@
 		)
 		(symbol "Transistor_FET:2N7002K"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -347,7 +346,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -620,8 +619,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27734b5e-f942-44b5-8685-f694d0a1e5d6")
-		(property "Reference" "Q5"
+		(uuid "558c1280-d3d1-40fe-8429-40712153af28")
+		(property "Reference" "Q8"
 			(at 137.16 105.41 90)
 			(effects
 				(font
@@ -667,31 +666,27 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "e9c91e97-105c-4236-9779-8fd9095e74f6")
+		)
 		(pin "2"
-			(uuid "bf27cbc4-f939-4090-9351-8338b13012c1")
+			(uuid "c5e82a82-4300-4002-b7f0-1a26b36a04c2")
 		)
 		(pin "3"
-			(uuid "c8cd1a8c-9158-431c-a5ba-ff24dc228dd8")
-		)
-		(pin "1"
-			(uuid "f4495a7a-9088-45bd-ad10-aacde59f5646")
+			(uuid "e49aae7f-38c1-4628-8871-6ce12cf36c70")
 		)
 		(instances
-			(project "main_esp32e_can"
-				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
+			(project ""
+				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
 					(reference "Q8")
 					(unit 1)
 				)
-				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
-					(reference "Q5")
-					(unit 1)
-				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
-					(reference "Q6")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
-					(reference "Q7")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -707,7 +702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89e3945d-5661-49ef-9936-2533be560e08")
-		(property "Reference" "R9"
+		(property "Reference" "R22"
 			(at 129.54 90.1699 0)
 			(effects
 				(font
@@ -725,7 +720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.222 91.44 90)
 			(effects
 				(font
@@ -760,20 +755,16 @@
 		)
 		(instances
 			(project "main_esp32e_can"
-				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
-					(reference "R21")
-					(unit 1)
-				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
-					(reference "R9")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
-					(reference "R19")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -789,7 +780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0e6e16-1e5f-4939-ae48-1938614037cd")
-		(property "Reference" "R10"
+		(property "Reference" "R23"
 			(at 149.86 90.1699 0)
 			(effects
 				(font
@@ -807,7 +798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.542 91.44 90)
 			(effects
 				(font
@@ -842,20 +833,16 @@
 		)
 		(instances
 			(project "main_esp32e_can"
-				(path "/c0f075e2-5381-4409-948d-59a846480f0e/1a165a23-a96a-44e6-9976-953fe6ccf7ae"
-					(reference "R22")
-					(unit 1)
-				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/481fd7a4-f3b8-4924-b85d-7a964c819d37"
-					(reference "R10")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/7fabc5d7-0f02-4149-95a1-fa513e825ccf"
-					(reference "R12")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/ae448462-19a4-47c2-a78b-0a1ef408c5af"
-					(reference "R20")
+					(reference "R31")
 					(unit 1)
 				)
 			)

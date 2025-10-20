@@ -658,6 +658,12 @@
 		)
 	)
 	(junction
+		(at 158.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022aa034-4994-4fcb-a687-dd2445c5eb3d")
+	)
+	(junction
 		(at 186.69 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -867,6 +873,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7738efa6-d953-417f-baca-42f3466cae3b")
+	)
+	(wire
+		(pts
 			(xy 186.69 86.36) (xy 198.12 86.36)
 		)
 		(stroke
@@ -887,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 162.56 86.36)
+			(xy 154.94 86.36) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1017,6 +1033,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 88.9) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2998ce6-e2f5-4893-b289-437666ffdbb8")
+	)
+	(wire
+		(pts
 			(xy 111.76 78.74) (xy 111.76 80.01)
 		)
 		(stroke
@@ -1044,6 +1070,16 @@
 			(type default)
 		)
 		(uuid "fade03d3-d1a8-4228-b7db-4a56367d8eb2")
+	)
+	(label "7.4Vout"
+		(at 158.75 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10e09d6c-4107-46d9-b3db-6883dbaa210a")
 	)
 	(hierarchical_label "V-"
 		(shape input)
@@ -1099,7 +1135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16e0cb1c-3cba-4c09-b731-d3a96b26e607")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 101.6 82.5499 0)
 			(effects
 				(font
@@ -1117,7 +1153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 87.63 0)
 			(effects
 				(font
@@ -1153,7 +1189,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1169,7 +1205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271fc225-fba1-44fb-b731-70664455f694")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 177.8 90.1699 0)
 			(effects
 				(font
@@ -1187,7 +1223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 91.44 90)
 			(effects
 				(font
@@ -1227,7 +1263,7 @@
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1243,7 +1279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314d6ce8-af32-426e-95fc-4b2134960e15")
-		(property "Reference" "C18"
+		(property "Reference" "C21"
 			(at 158.75 81.2799 0)
 			(effects
 				(font
@@ -1261,7 +1297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 86.36 0)
 			(effects
 				(font
@@ -1301,7 +1337,7 @@
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "C18")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1317,7 +1353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "332f5ce1-00f0-4d13-b665-9de4544b04d4")
-		(property "Reference" "R16"
+		(property "Reference" "R29"
 			(at 177.8 100.3299 0)
 			(effects
 				(font
@@ -1335,7 +1371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 101.6 90)
 			(effects
 				(font
@@ -1371,7 +1407,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "R16")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1387,7 +1423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4523c7ed-ca39-4bcb-bb9a-97e946cfbc92")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 166.37 81.28 90)
 			(effects
 				(font
@@ -1403,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -1443,7 +1479,7 @@
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -1459,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5049cb8c-ed66-41ed-b223-2211e7f19a68")
-		(property "Reference" "C17"
+		(property "Reference" "C20"
 			(at 123.19 81.28 90)
 			(effects
 				(font
@@ -1475,7 +1511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127 87.9348 0)
 			(effects
 				(font
@@ -1511,7 +1547,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "C17")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1527,7 +1563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ed96d2-0646-4069-9d30-95d2267bd2a2")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 115.57 82.5499 0)
 			(effects
 				(font
@@ -1545,7 +1581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 87.63 0)
 			(effects
 				(font
@@ -1581,7 +1617,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -1597,7 +1633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beafcdd5-9c6b-4943-bb85-772c45f66afc")
-		(property "Reference" "U5"
+		(property "Reference" "U11"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -1671,7 +1707,7 @@
 					(unit 1)
 				)
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "U5")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1687,7 +1723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebb682e-3117-4209-88b5-16b1be4bc302")
-		(property "Reference" "C19"
+		(property "Reference" "C22"
 			(at 190.5 90.1699 0)
 			(effects
 				(font
@@ -1705,7 +1741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.6552 95.25 0)
 			(effects
 				(font
@@ -1741,7 +1777,7 @@
 		(instances
 			(project "main_esp32e_can"
 				(path "/c0f075e2-5381-4409-948d-59a846480f0e/62be41a3-d98d-4b28-a1b7-23dd5fce8c3c/da8501cc-4ef0-4247-8e76-1779f540fa5a"
-					(reference "C19")
+					(reference "C22")
 					(unit 1)
 				)
 			)
